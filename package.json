@@ -1,11 +1,10 @@
 {
   "name": "basic-informational-site",
   "version": "1.0.0",
-  "description": "A simple informational website built with Node.js",
+  "description": "A basic informational website built with Express",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "node index.js"
+    "start": "node index.js"
   },
   "keywords": [
     "nodejs",
@@ -14,5 +13,8 @@
     "beginner"
   ],
   "author": "Your Name",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }

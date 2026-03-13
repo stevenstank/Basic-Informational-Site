@@ -1,0 +1,65 @@
+:root {
+  --bg: #f4f7fb;
+  --panel: #ffffff;
+  --text: #1f2a37;
+  --accent: #1d4ed8;
+  --accent-soft: #dbeafe;
+  --danger: #b91c1c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: radial-gradient(circle at top right, #e5edff 0%, var(--bg) 55%);
+  color: var(--text);
+}
+
+.container {
+  max-width: 780px;
+  margin: 48px auto;
+  padding: 32px;
+  background: var(--panel);
+  border-radius: 14px;
+  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.08);
+}
+
+.site-nav {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 28px;
+}
+
+.site-nav a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: background-color 150ms ease;
+}
+
+.site-nav a:hover {
+  background-color: var(--accent-soft);
+}
+
+h1 {
+  margin-top: 0;
+  line-height: 1.2;
+}
+
+p {
+  line-height: 1.65;
+}
+
+.error-title {
+  color: var(--danger);
+}
+
+.home-link {
+  font-weight: 600;
+}
